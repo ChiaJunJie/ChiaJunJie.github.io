@@ -1,12 +1,12 @@
 @charset "utf-8";
 @font-face {
 	font-family: "Ink Free";
-	src:url("fonts/InkFree.woff");
+	src:url("fonts/InkFree.woff") format('woff');
 }
 
 @font-face {
 	font-family: "Earwig Factory";
-	src:url("fonts/earwig factory rg.ttf");
+	src:url("fonts/earwig factory rg.ttf") format('ttf');
 }
 /* CSS Document */
 
