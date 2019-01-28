@@ -1,0 +1,117 @@
+@charset "utf-8";
+@font-face {
+	font-family: "Ink Free";
+	src:url("../fonts/InkFree.woff");
+}
+
+@font-face {
+	font-family: "Earwig Factory";
+	src:url("../fonts/earwig factory rg.ttf");
+}
+/* CSS Document */
+
+body {
+	font-family: Ink Free;
+	background: url("../images/background red phone.png");
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	max-width: 100%;
+	text-align: center;
+	color:white;
+}
+
+.nothome{
+	font-family: Calibri;
+}
+
+h1 {
+	font-size: 500%;
+	color:white;
+	font-family: "Ink Free";
+}
+
+.main {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	grid-gap: 10px;
+	margin: 10% 10% 10% 10%;
+	
+}
+
+.main a, .about {
+	font-size:200%;
+	text-decoration: none;
+	border: solid 2px white;
+	padding: 0.2% 1%;
+	margin-top: 0;
+	transition: padding 0.5s;
+	color:white;
+	margin: 0 3%;
+}
+
+.main a:hover, .about:hover {
+	padding: 0.5% 3%;
+}
+
+
+.quote {
+	font-size:300%;
+	text-align: center;
+	font-family: "Ink Free";
+}
+
+.cred {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
+
+
+.sidebar {
+	float: right;
+	width: 15%;
+	display: flex;
+  	flex-direction: column;
+	margin-right: 5%;
+}
+
+.sidebar a {
+	color:white;
+	text-decoration: none;
+	border: solid 2px white;
+	margin: 5px;
+	padding: 3%;
+	transition: padding 0.5s;
+}
+
+.sidebar a:hover {
+	padding: 4%;
+}
+
+.leftarticles {
+	float: left;
+	width: 70%;
+	border: solid 2px white;
+	margin-left: 5%;
+	text-align: left;
+	padding: 2%;
+	
+}
+
+.images img {
+	width: 100%;
+	height: auto;
+}
+
+.images {
+	display: grid;
+  	grid-template-columns: auto auto;
+	align-items: center;
+	margin: 4%;
+}
+
+
+
