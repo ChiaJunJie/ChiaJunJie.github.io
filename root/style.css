@@ -1,18 +1,18 @@
 @charset "utf-8";
 @font-face {
 	font-family: "Ink Free";
-	src:url("../fonts/InkFree.woff");
+	src:url("/fonts/InkFree.woff");
 }
 
 @font-face {
 	font-family: "Earwig Factory";
-	src:url("../fonts/earwig factory rg.ttf");
+	src:url("/fonts/earwig factory rg.ttf");
 }
 /* CSS Document */
 
 body {
 	font-family: Ink Free;
-	background: url("../images/background red phone.png");
+	background: url("/images/background red phone.png");
 	
 	background-size: cover;
 	background-repeat: no-repeat;
