@@ -113,5 +113,9 @@ h1 {
 	margin: 4%;
 }
 
+a:clicked {
+	color: red;
+	
+}
 
 
