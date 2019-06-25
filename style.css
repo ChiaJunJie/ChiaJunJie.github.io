@@ -1,12 +1,12 @@
 @charset "utf-8";
 @font-face {
-	font-family: Ink Free;
-	src:url("/fonts/Inkfree.woff") format('woff');
+	font-family: "Ink Free";
+	src:url("fonts/Inkfree.woff") format('woff');
 }
 
 @font-face {
-	font-family: Montserrat Regular;
-	src:url("/fonts/Montserrat Regular.ttf") format('ttf');
+	font-family: "Montserrat Regular";
+	src:url("fonts/Montserrat Regular.ttf") format('ttf');
 }
 /* CSS Document */
 
