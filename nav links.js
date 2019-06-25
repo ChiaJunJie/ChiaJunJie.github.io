@@ -2,7 +2,7 @@ var indexpage = "<a href='aboutme.html' class='about'>About</a><nav id='main'><a
 
 var side = "<a href='index.html'>Home</a><a href='aboutme.html'>About</a><a href='illustrations.html'>Illustration</a><a href='code.html'>Coding</a><a href='writing.html'>Writing</a><a href='misc.html'>Misc.</a>";
 
-if (location.href.replace(/(.+\w\/)(.+)/,"/$2") == "/index.html" || location.href.replace(/(.+\w\/)(.+)/,"/$2") == "/") {
+if (location.href.replace(/(.+\w\/)(.+)/,"/$2") == "/index.html" || location.href == "") {
 	document.getElementById('indexpage').innerHTML += indexpage;
 } else {
 	document.getElementById('sidebar').innerHTML += side;
