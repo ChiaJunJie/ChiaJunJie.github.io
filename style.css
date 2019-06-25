@@ -8,10 +8,15 @@
 	font-family: "Earwig Factory";
 	src:url("fonts/earwig factory rg.ttf") format('ttf');
 }
+
+@font-face {
+	font-family: "Raleway-Regular";
+	src:url("fonts/Raleway-Regular.ttf") format('ttf');
+}
 /* CSS Document */
 
 body {
-	font-family: Ink Free;
+	font-family: "Raleway-Regular";
 	background: url("images/background red phone.png");
 	
 	background-size: cover;
@@ -22,9 +27,7 @@ body {
 	color:white;
 }
 
-.nothome{
-	font-family: Calibri;
-}
+
 
 h1 {
 	font-size: 500%;
