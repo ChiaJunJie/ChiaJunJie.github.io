@@ -1,22 +1,22 @@
 @charset "utf-8";
 @font-face {
-	font-family: "Ink Free";
-	src:url("fonts/InkFree.woff") format('woff');
+	font-family: Ink Free;
+	src:url(fonts/InkFree.woff) format('woff');
 }
 
 @font-face {
-	font-family: "Earwig Factory";
-	src:url("fonts/earwig factory rg.ttf") format('ttf');
+	font-family: Earwig Factory;
+	src:url(fonts/earwig factory rg.ttf) format('ttf');
 }
 
 @font-face {
-	font-family: "Raleway-Regular";
-	src:url("fonts/Raleway-Regular.ttf") format('ttf');
+	font-family: Montserrat Regular;
+	src:url(fonts/Montserrat Regular.ttf) format('ttf');
 }
 /* CSS Document */
 
 body {
-	font-family: "Raleway-Regular";
+	font-family: "Montserrat Regular";
 	background: url("images/background red phone.png");
 	
 	background-size: cover;
@@ -35,7 +35,7 @@ h1 {
 	font-family: "Ink Free";
 }
 
-.main {
+#main {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto;
 	grid-gap: 10px;
@@ -43,7 +43,7 @@ h1 {
 	
 }
 
-.main a, .about {
+#main a, .about {
 	font-size:200%;
 	text-decoration: none;
 	border: solid 2px white;
@@ -52,10 +52,11 @@ h1 {
 	transition: padding 0.5s;
 	color:white;
 	margin: 0 3%;
+	background-color: rgba(0,0,0,0.7);
 }
 
-.main a:hover, .about:hover {
-	padding: 0.5% 3%;
+#main a:hover, .about:hover {
+	padding: 3%;
 }
 
 
@@ -73,15 +74,16 @@ h1 {
 }
 
 
-.sidebar {
+#sidebar {
 	float: right;
 	width: 15%;
 	display: flex;
   	flex-direction: column;
 	margin-right: 5%;
+	background-color: rgba(0,0,0,0.7);
 }
 
-.sidebar a {
+#sidebar a {
 	color:white;
 	text-decoration: none;
 	border: solid 2px white;
@@ -90,8 +92,8 @@ h1 {
 	transition: padding 0.5s;
 }
 
-.sidebar a:hover {
-	padding: 4%;
+#sidebar a:hover {
+	padding: 4% 50%;
 }
 
 .leftarticles {
@@ -101,7 +103,7 @@ h1 {
 	margin-left: 5%;
 	text-align: left;
 	padding: 2%;
-	
+	background-color: rgba(0,0,0,0.7);
 }
 
 .images img {
@@ -116,9 +118,9 @@ h1 {
 	margin: 4%;
 }
 
+/* doesn't work because of javascript security risks
 a:visited {
 	color: red;
-	
-}
+}*/
 
 
