@@ -4,16 +4,14 @@
 	src:url("fonts/Inkfree.woff") format('woff');
 }
 
-@import url('//fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-@-webkit-keyframes fontfix {
-    from { opacity: 1; }
-    to   { opacity: 1; }
+@font-face {
+	font-family: "Montserrat Regular";
+	src:url("fonts/Montserrat Regular.ttf") format('ttf');
 }
 /* CSS Document */
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat Regular";
 	background: url("images/background red phone.png");
 	
 	background-size: cover;
@@ -22,11 +20,6 @@ body {
 	max-width: 100%;
 	text-align: center;
 	color:white;
-    -webkit-animation-delay: 0.1s;
-    -webkit-animation-name: fontfix;
-    -webkit-animation-duration: 0.1s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: linear;
 }
 
 
