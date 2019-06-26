@@ -4,14 +4,12 @@
 	src:url("fonts/Inkfree.woff") format('woff');
 }
 
-@font-face {
-	font-family: "Montserrat Regular";
-	src:url("fonts/Montserrat Regular.ttf") format('ttf');
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 /* CSS Document */
 
 body {
-	font-family: "Montserrat Regular";
+	font-family: 'Montserrat', sans-serif;
 	background: url("images/background red phone.png");
 	
 	background-size: cover;
