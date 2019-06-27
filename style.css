@@ -108,7 +108,7 @@ h1 {
 
 .images {
 	display: grid;
-  	grid-template-columns: auto auto;
+  	grid-template-columns: auto auto auto;
 	align-items: center;
 	margin: 4%;
 }
