@@ -21,9 +21,10 @@
 						<img src="images/illustrations/jack.jpg"/>
 						<img src="images/illustrations/Lesson 9 Illustration.png"/>
 					</div>
-					<!--<div class="images"></div>-->
-					<?php ?>
+					<p><?php foreach(glob("images/illustrations/" . "*") as $filename){
+						echo basename($filename) . "\n";
+					} ?></p>
 				</article>
-			</body>
+			</body>	
 		</html>
 		
