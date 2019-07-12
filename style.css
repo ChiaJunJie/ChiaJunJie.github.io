@@ -115,8 +115,10 @@ h1 {
 }
 
 .images img {
-	width: 30%;
+	width: 50%;
 	height: auto;
+	border: 2px solid white;
+	border-radius: 5px;
 }
 
 .images {
