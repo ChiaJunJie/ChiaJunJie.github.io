@@ -21,6 +21,19 @@ body {
 	max-width: 100%;
 	text-align: center;
 	color:white;
+	animation: fadein 0.7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 100;}
+}
+
+/* Standard syntax */
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 100;}
 }
 
 /*@media only screen and (max-width: 600px) {
