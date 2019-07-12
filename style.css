@@ -23,8 +23,12 @@ body {
 	color:white;
 }
 
-
-
+/*@media only screen and (max-width: 600px) {
+  body {
+	  
+	}
+}
+*/
 h1 {
 	font-size: 500%;
 	color:white;
